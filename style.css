@@ -232,12 +232,14 @@ body {
   @media screen and (min-width: 300px) {
     .container {
       width: 90%;
-      padding: 1% 5%; } }
+      padding: 1% 5%;
+      height: 100vh; } }
   @media screen and (min-width: 800px) {
     .container {
       width: 65%;
       padding: 1% 2.5%;
-      margin: 5em auto; } }
+      margin: 5em auto;
+      height: auto; } }
 
 .textScript {
   width: 100%; }

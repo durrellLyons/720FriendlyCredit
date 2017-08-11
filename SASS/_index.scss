@@ -12,12 +12,14 @@ body {
     @media screen and (min-width: $query__mobile) {
         width: 90%;
         padding: 1% 5%;
+        height: 100vh;
     }
     
     @media screen and (min-width: $query__desktop) {
         width: 65%;
         padding: 1% 2.5%;
         margin: 5em auto;
+        height: auto;
     }
 }
 
