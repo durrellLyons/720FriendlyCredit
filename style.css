@@ -203,7 +203,6 @@ a {
     color: #A9A9A9; }
 
 .textScript {
-  font-size: 3em;
   font-family: 'Saira Extra Condensed', sans-serif;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   line-height: 1; }
@@ -211,6 +210,12 @@ a {
     color: #B21111; }
   .textScript h3, .textScript h6 {
     margin: 0.15em auto; }
+  @media screen and (min-width: 300px) {
+    .textScript {
+      font-size: 2em; } }
+  @media screen and (min-width: 800px) {
+    .textScript {
+      font-size: 3em; } }
 
 /*******************************
  * index styles
