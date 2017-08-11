@@ -1,0 +1,44 @@
+body {
+    background-color: #f3fafe;
+}
+
+.container {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,0.3);
+    text-align: center;
+    
+    @media screen and (min-width: $query__mobile) {
+        width: 90%;
+        padding: 1% 5%;
+    }
+    
+    @media screen and (min-width: $query__desktop) {
+        width: 65%;
+        padding: 1% 2.5%;
+        margin: 5em auto;
+    }
+}
+
+.textScript {
+    width: 100%;
+    p {
+        font-size: 0.5em;
+    }
+}
+
+.videoFrame {
+    margin: 0 auto;
+    
+    @media screen and (min-width: $query__mobile) {
+        width: 90%;
+        height: 19em;
+    }
+    
+    @media screen and (min-width: $query__desktop) {
+        width: 80%;
+        height: 24em;
+    }
+}
+

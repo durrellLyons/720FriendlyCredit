@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+a {
+    text-decoration: none;
+    color: $silver;
+    &:hover {
+        color: $darkgray;
+    }
+}
+
+.textScript {
+    font-size: 3em;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    line-height: 1;
+    em {
+        color: $red;
+    }
+    
+    h3, h6 {
+        margin: 0.15em auto;
+    }
+}
